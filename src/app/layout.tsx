@@ -1,4 +1,5 @@
-  // export const dynamic = "force-dynamic"
+
+   // export const dynamic = "force-dynamic"
 ;
   
   import "bootstrap/dist/css/bootstrap.min.css";
@@ -19,15 +20,15 @@ import { BannerProvider } from "@/components/BannerHandler";
   
   export const metadata: Metadata = {
     title: {
-      default: "Motorhomes For Sale – Australia’s Marketplace for New & UsedCampervans",
+      default: "Motorhomes For Sale – Australia’s Marketplace for New & Used Caravans",
       template: "%s ",
     },
     description:
-      "Browse new & used Vans for sale across Australia. Compare prices on off-road, hybrid, pop top, touring, luxury models with size, weight & sleeping capacity",
+      "Browse new & used motorhomes for saleacross Australia. Compare prices on off-road, hybrid, pop top, touring, luxury models with size, weight & sleeping capacity",
     icons: { icon: "/favicon.ico" },
     // robots: "index, follow",
     verification: {
-      google: "6tT6MT6AJgGromLaqvdnyyDQouJXq0VHS-7HC194xEo", // ✅ this auto generates <meta name="google-site-verification" />
+        // // google: "6tT6MT6AJgGromLaqvdnyyDQouJXq0VHS-7HC194xEo", // ✅ this auto generates <meta name="google-site-verification" />
     },
     alternates: {
       canonical: "https://www.caravansforsale.com.au",
@@ -60,7 +61,7 @@ const gtmServer = "https://gtm.caravansforsale.com.au";
           />
   
           {/* ✅ Google Tag Manager (Head) */}
-           <script
+           {/* <script
   dangerouslySetInnerHTML={{
     __html: `
       (function(w,d,s,l,i){
@@ -75,7 +76,7 @@ const gtmServer = "https://gtm.caravansforsale.com.au";
       })(window,document,'script','dataLayer','GTM-N3362FGQ');
     `,
   }}
-/>
+/> */}
 
         
           
@@ -88,14 +89,14 @@ const gtmServer = "https://gtm.caravansforsale.com.au";
           }}
         >
           {/* ✅ Google Tag Manager (noscript) - right after body */}
-         <noscript>
+         {/* <noscript>
   <iframe
     src="https://www.googletagmanager.com/ns.html?id=GTM-N3362FGQ"
     height="0"
     width="0"
     style={{ display: "none", visibility: "hidden" }}
   />
-</noscript>
+</noscript> */}
 
   
          <Suspense fallback={null}>
